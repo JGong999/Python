@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-nb_2016 = pd.read_csv('neighbourhood-profiles-2016-csv.csv')
+nb_2016 = pd.read_csv(r'https://raw.githubusercontent.com/JGong999/Python/main/TorontoNeighbourhoods/neighbourhood-profiles-2016-csv.csv')
 print(nb_2016)
 
 
