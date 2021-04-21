@@ -1,14 +1,14 @@
 Project 1
 
-FileName: RFMAnalysis.ipynb
+  FileName: RFMAnalysis.ipynb
 
-Object/Method: RFM Analysis
+  Object/Method: RFM Analysis
 
-Data: Randomly created, 1M rows, columns = ['ID', 'BuyDate', 'BuyAmount']
+  Data: Randomly created, 1M rows, columns = ['ID', 'BuyDate', 'BuyAmount']
 
-Language: Python
+  Language: Python
 
-Date: 2021-04-21
+  Date: 2021-04-21
 
 
 
