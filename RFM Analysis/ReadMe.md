@@ -4,7 +4,7 @@ Project 1
 
   Object/Method: RFM Analysis
 
-  Data: Randomly created, 1M rows, columns = ['ID', 'BuyDate', 'BuyAmount']
+  Data: created randomly, 1M rows, columns = ['ID', 'BuyDate', 'BuyAmount']
 
   Language: Python
 
