@@ -1,0 +1,36 @@
+CREATE TABLE [dbo].[IowaLiquorSales](
+	[Invoice_Item_Number] [nvarchar](50) NULL,
+	[Date] [datetime2](7) NULL,
+	[Store_Number] [int] NULL,
+	[Store_Name] [nvarchar](50) NULL,
+	[Address] [nvarchar](50) NULL,
+	[City] [nvarchar](50) NULL,
+	[Zip_Code] [nvarchar](10) NULL,
+	[Store_Location] [nvarchar](50) NULL,
+	[County_Number] [int] NULL,
+	[County] [nvarchar](50) NULL,
+	[Category] [int] NULL,
+	[Category_Name] [nvarchar](50) NULL,
+	[Vendor_Number] [int] NULL,
+	[Vendor_Name] [nvarchar](100) NULL,
+	[Item_Number] [nvarchar](50) NULL,
+	[Item_Description] [nvarchar](100) NULL,
+	[Pack] [nvarchar](50) NULL,
+	[Bottle_Volume_ml] [int] NULL,
+	[State_Bottle_Cost] [float] NULL,
+	[State_Bottle_Retail] [float] NULL,
+	[Bottles_Sold] [nvarchar](50) NULL,
+	[Sale_Dollars] [float] NULL,
+	[Volume_Sold_Liters] [float] NULL,
+	[Volume_Sold_Gallons] [float] NULL
+)
+
+bulk insert IowaLiquorSales
+from 'C:\Users\J\JLab\Iowa Liquid\Iowa_Liquor_Sales.csv'
+with (format='CSV', firstrow=2, fieldterminator=',', rowterminator='0x0a')
+
+
+select count(*) from IowaLiquorSales
+--20965997
+
+select 21190664 - 20965997
