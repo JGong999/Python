@@ -7,4 +7,3 @@ Data Imported displays 20,965,997 rows
         3. MongoDB import 
   )
 
-Q: is 21,190,664 wrong?
